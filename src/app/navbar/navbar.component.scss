@@ -1,0 +1,36 @@
+.navbars{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 1000px;
+    .name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form{
+            padding: 5px;
+            input{
+                border-radius: 5px;
+                padding: 5px;
+            }
+            button{
+                padding: 5px;
+                border-radius: 5px;
+                margin: 0 0 0 3px;
+            }
+        }
+    }
+    .links{
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                padding: 0 5px;
+                a{
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

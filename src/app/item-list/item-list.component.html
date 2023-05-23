@@ -1,0 +1,14 @@
+<div class="itemCard">
+    <div class="itemCardcontent" *ngFor="let e of cartItems">
+        <img src= {{e.Img}}>
+        <h3>{{e.itemName}}</h3> 
+        <p>{{e.category}}</p>
+        <div class="count">
+            <button (click)="Delete(e.id)">-</button>
+            <p>{{e.count}}</p>
+            <!-- <button (click)="Add()">+</button> -->
+            <p>{{e.Rs}}</p>
+        </div>
+        <button>Add</button>
+    </div>
+</div>
